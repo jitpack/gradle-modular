@@ -1,3 +1,7 @@
 # gradle-modular
 
-multi module gradle project
+Example gradle project with two modules:
+ - client
+ - server
+ 
+
