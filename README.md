@@ -4,14 +4,7 @@ Example gradle project with two modules:
  - client
  - server
 
-To install both of them at the same time use:
-```gradle
- compile 'com.github.jitpack:gradle-modular:1.1'
-```
-which will return a module that depends on client and server.
-
-
-To install them individually the syntax `com.github.User.Repo` for groupId:
+To install each module individually use `com.github.User.Repo` for groupId and module name as artifact id:
 
 ```gradle
  compile 'com.github.jitpack.gradle-modular:client:1.1'
