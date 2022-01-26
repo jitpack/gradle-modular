@@ -6,7 +6,11 @@ allprojects {
 subprojects {
 	apply plugin: 'java'
 	apply plugin: 'maven-publish'
-	
+
+	repositories {
+		mavenCentral()
+	}
+
 	sourceCompatibility = 1.8 // java 8
 	targetCompatibility = 1.8
 
